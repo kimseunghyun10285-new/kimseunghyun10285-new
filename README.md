@@ -1,16 +1,62 @@
-## Hi there 👋
+# 안녕하세요, 백엔드 개발자 김승현입니다
 
-<!--
-**kimseunghyun10285-new/kimseunghyun10285-new** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+공공기관 GIS 시스템을 구축부터 운영, 감리 대응까지 책임져 온 백엔드 개발자입니다.
 
-Here are some ideas to get you started:
+- 국가유산청 발주 사업을 개발자 1인으로 담당하며 **유지보수와 신규 구축을 동시에 수행**했습니다.
+- 15년 된 레거시 시스템을 **기존 기능을 유지한 채 기술 업그레이드**한 경험이 있습니다.
+- 제안서 작성부터 착수·완료 보고, **4년간의 감리 대응**까지 공공 SI 사업 전 과정을 경험했습니다.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## Tech Stack
+
+| 분류 | 기술 |
+|---|---|
+| Language | Java, JavaScript |
+| Framework | 전자정부 표준프레임워크 (eGovFrame) |
+| Database | Tibero, PostgreSQL, MariaDB |
+| GIS | GeoServer, PostGIS, OpenLayers, O2Map, QGIS |
+
+
+## Experience
+
+### 솔브케이 · 백엔드 개발자
+**2021.12 – 2026.08**
+
+국가유산청(구 문화재청) 발주 공공 정보시스템 구축 및 유지보수
+
+- 제안서 작성 → 착수보고 → 개발 및 DB 구축 → 완료보고까지 사업 전 과정 수행
+- 국가유산청 시스템의 유지보수와 신규 구축 사업을 개발자 1인으로 동시 담당
+- 4년간 감리 대응 (개발 · 데이터베이스 · 인프라 영역, 감리 산출물 작성)
+- 차세대 시스템 ISP 수립 시 인프라 부문 문서 작성
+
+## Projects
+
+### 국가유산공간정보시스템 · 국가유산 인트라넷 시스템
+구축 15년 차 레거시 GIS 시스템의 운영 및 고도화
+
+- 2023년 UI/UX 전면 개편 시 백엔드 기술 업그레이드 주도
+  - 소스 파일 1만 개 이상 규모의 프로젝트에서 기존 기능을 모두 유지
+  - GeoServer, OpenLayers, JS 라이브러리를 운영 OS가 허용하는 최신 버전까지 상향하고 소스 수정
+  - 같은 기간 해당 연도 신규 기능 개발 병행
+- 현장 상주 DB 담당자와 협업하여 장애 원인 분석 및 대응
+
+### 역사문화자원 관리시스템 데이터 이관 및 연계
+4·5차 사업 수행 후, 사업 결과물을 국가유산 시스템에 통합
+
+- PostgreSQL → Tibero 데이터 마이그레이션
+- GeoServer + PostGIS 기반 공간 데이터를 O2Map + Tibero 환경으로 전환
+- 현장 조사자 중심 기능을 사용자에 맞게 재설계
+  - 인트라넷: 공무원·지자체 등 내부 관계자용
+  - 공간정보시스템: 대국민 서비스용
+  - 불필요 기능 제거 및 조회 중심 기능 추가
+- 운영 서버의 OS·버전 제약에 맞춰 기능 재개발
+
+
+## Certificate
+
+- 정보처리기사 (2026년 실기 응시 완료, 결과 발표 대기)
+
+
+## Contact
+
+- Email: tmdgus10285@naver.com
